@@ -1,0 +1,12 @@
+<!doctype html><html><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GoldX Sniper — Callback</title>
+<style>body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#0b0b0b;color:#eee;margin:0;display:flex;align-items:center;justify-content:center;height:100vh}
+.box{background:#141414;border:1px solid #222;border-radius:12px;padding:22px;max-width:680px}
+pre{background:#0e0e0e;padding:10px;border-radius:8px;white-space:pre-wrap}</style>
+</head><body><div class="box">
+<h2>Authorization Successful</h2><p>This page is used as a valid HTTPS redirect for Gumroad.</p>
+<p><a href="../">← Back to GoldX Sniper</a></p>
+<p style="opacity:.7">Query params:</p><pre id="p"></pre></div>
+<script>const o={};for(const[k,v]of new URLSearchParams(location.search).entries())o[k]=v;
+document.getElementById('p').textContent=JSON.stringify(o,null,2);</script></body></html>
